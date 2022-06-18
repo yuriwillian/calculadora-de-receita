@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Receita</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="ingredientes" id="ingredientes">
+
+    </div>
+
+    <form action="">
+    
+        <p>Nome do ingrediente utilizado:</p>
+        <input type="text" id="nomeIngrediente" placeholder="Digite o nome do ingrediente" required>
+
+        <p>Custo da embalagem (valor que pagou no ingrediente)</p>
+        <input type="number" id="custoEmbalagem" placeholder="Digite o R$ da embalagem">
+
+        <p>Quantidade da embalagem (verificar na embalagem do ingrediente):</p>
+        <input type="number" id="quantidadeEmbalagem" placeholder="Digite a quantidade da embalagem" required>
+
+        <p>Digite o tipo da quantidade (Gramas, Kilos, Litros, ML?)</p>
+        <input type="text" id="tipoQuantidade" placeholder="Gramas? Kilos? Litros? Digite aqui." required>
+
+        <p>Quantidade utilizada na receita:</p>
+        <input type="number" id="quantidadeUsada" placeholder="Digite a quantidade utilizada na receita" required>
+        
+        <br><br>
+        <input type="button" value="Adicionar ingrediente" onclick="adicionarIngrediente(), teste()">
+        <input type="button" value="Calcular receita" onclick="calcularReceita()"> 
+        
+    </form>
+
+    <div id="custoReceita">
+
+    </div>
+
+
+
+
+
+    <script src="main.js"></script>
+</body>
+</html>
