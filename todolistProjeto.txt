@@ -1,0 +1,6 @@
+To-do list:
+
+	[ ]Assistir aula sobre AJAX baixada
+	[ ]Ingredientes permanecem salvos mesmo atualizando a pagina
+	[ ]Deixar a calculadora de receita responsiva para telas menores
+	[ ]Estudar sobre objetos e ver se é a melhor opção para o projeto

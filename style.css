@@ -1,3 +1,65 @@
+
+/*Deixar o "float" dos ingredientes reativo ao tamanho da tela*/
+
+body{
+    margin: 0;
+    background-color: rgb(201, 201, 201);
+}
+form{
+    background-color: rgb(75, 187, 64);
+    color: black;
+    text-align: center;
+    margin-left: 15%;
+    margin-top: 5px;
+    margin-bottom: 50px;
+    width: 500px;
+    height: 750px;
+    padding: 20px;
+    float: left;
+
+}
+
+form > input{
+    padding: 10px;
+    border-radius: 100px;
+    width: 300px;
+}
+
+.btnForm{
+    border-radius: 100px;
+    padding: 10px;
+    font: normal 15pt Arial Black;
+    width: 300px;
+    margin-bottom: 5px;
+}
+
 .ingredientes{
+    background-color: rgb(75, 187, 64);
+    width: 540px;
+    text-align: center;
+    margin-top: 5px;
+    margin-right: 20%;
+    margin-bottom: 50px;
     float: right;
 }
+
+
+.ingrediente{
+    color: black;
+    margin: 20px;
+    background-color: rgb(201, 201, 201);
+    padding: 10px;
+
+}
+
+.resultado{
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border-radius: 100px;
+    height: 35px;
+    margin-top: 5px;
+    text-align: center;
+    font: normal 20pt Arial;
+}
+

@@ -8,11 +8,9 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="ingredientes" id="ingredientes">
-
-    </div>
-
+ 
     <form action="">
+        <h1>Calcule sua receita:</h1>
     
         <p>Nome do ingrediente utilizado:</p>
         <input type="text" id="nomeIngrediente" placeholder="Digite o nome do ingrediente" required>
@@ -24,21 +22,29 @@
         <input type="number" id="quantidadeEmbalagem" placeholder="Digite a quantidade da embalagem" required>
 
         <p>Digite o tipo da quantidade (Gramas, Kilos, Litros, ML?)</p>
-        <input type="text" id="tipoQuantidade" placeholder="Gramas? Kilos? Litros? Digite aqui." required>
+        <input type="text" id="tipoQuantidade" placeholder="G? KG? L? Digite aqui." required>
 
         <p>Quantidade utilizada na receita:</p>
         <input type="number" id="quantidadeUsada" placeholder="Digite a quantidade utilizada na receita" required>
         
         <br><br>
-        <input type="button" value="Adicionar ingrediente" onclick="adicionarIngrediente(), teste()">
-        <input type="button" value="Calcular receita" onclick="calcularReceita()"> 
+        <input type="button" value="Adicionar ingrediente" onclick="adicionarIngrediente(), teste()" class="btnForm">
         
+        <div id="btnReceita">
+
+        </div>
+
+        
+        <div id="custoReceita">
+
+        </div>
+        
+
     </form>
 
-    <div id="custoReceita">
+    <div class="ingredientes" id="ingredientes">
 
     </div>
-
 
 
 
